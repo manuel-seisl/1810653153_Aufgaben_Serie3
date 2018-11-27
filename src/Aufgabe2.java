@@ -4,10 +4,11 @@ public class Aufgabe2
     public static void main(String[] args)
     {
 
-        for(int i = 0; i < 5; i++){
-            printName("Manuel Seisl");
-            printAge(26 + i);
-        }
+        Person a = new Person();
+        a.name = "Manuel Seisl";
+        a.alter = 26;
+
+        a.printPerson();
 
     }
 
